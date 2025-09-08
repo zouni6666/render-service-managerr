@@ -1,0 +1,11 @@
+name = "render-service-managerr"
+compatibility_date = "2025-08-01"
+workers_dev = true
+[vars]
+ADMIN_USERNAME = "admin"
+ADMIN_PASSWORD = "zhanghao666"
+RENDER_ACCOUNTS = "[{\"id\": \"zouni\", \"name\": \"gptload\", \"apiKey\": \"rnd_WgMs3EW28f8Npj7NSApCIY4aCnp3\"}]"
+SESSION_SECRET = "zhanghao666"
+kv_namespaces = [
+  { binding = "RENDER_KV", id = "你的KV_ID" }
+]
